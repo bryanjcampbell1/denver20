@@ -1,0 +1,43 @@
+{
+  "name": "wallet-ui",
+  "version": "1.0.0",
+  "description": "Source code of the Wallet UI which uses Lendroid's v2 Protocol",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "prod": "next build && next start",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lendroidproject/wallet-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lendroidproject/wallet-ui/issues"
+  },
+  "homepage": "https://github.com/lendroidproject/wallet-ui#readme",
+  "dependencies": {
+    "@toruslabs/torus-embed": "^0.2.12",
+    "dotenv": "^8.2.0",
+    "fortmatic": "^1.1.3",
+    "lendroid-2-js": "../lendroid-2-js",
+    "moment": "^2.24.0",
+    "next": "^9.1.6",
+    "next-cookies": "^2.0.3",
+    "next-images": "^1.3.0",
+    "next-redux-wrapper": "^4.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "redux": "^4.0.5",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^5.1.0",
+    "babel-plugin-root-import": "^6.4.1",
+    "babel-plugin-styled-components": "^1.10.7"
+  }
+}
